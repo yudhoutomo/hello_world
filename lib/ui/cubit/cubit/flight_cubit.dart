@@ -28,7 +28,7 @@ class FlightCubit extends Cubit<FlightState> {
   }
 
   void filter(String query) {
-    final result = data.where((element) => element.countryName.contains(query));
+    final result = data.where((element) => element.airportName.contains(query));
     emit(FlightInitialState(status: Status.success, data: result.toList()));
   }
 }

@@ -6,6 +6,9 @@ class AppColors {
   static const textBlack = Color(0xFF030303);
   static const textGray = Color(0xFFBABABA);
   static const softGray = Color(0xFFF3F3F3);
+  static const blue = Color(0xff27a2de);
+  static const grey = Color(0xfff6f6f6);
+  static const divider_grey = Color(0xfff5f5f5);
 
   static final primarySwatch = MaterialColor(
     primary.value,
